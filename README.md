@@ -1,4 +1,4 @@
-# Özdilek — Çok Firmalı Kargo Fiyatlama ve Desi Motoru
+#  Çok Firmalı Kargo Fiyatlama ve Desi Motoru
 
 Sipariş anında **beklenen toplam sahiplenme maliyetini** (nakliye + hasar + gecikme)
 minimize eden kargo firmasını seçen bir karar motoru ve bu motorun ne kadar
