@@ -1,0 +1,48 @@
+sku,name,category,length_cm,width_cm,height_cm,weight_kg,unit_price_try,fragility,is_liquid,is_absorbent,stackable,max_stack_load_kg,compressibility
+HV-001,El Havlusu 30x50,havlu,20,14,5,0.12,89,yok,0,1,1,30,0.20
+HV-002,Yüz Havlusu 50x90,havlu,26,18,7,0.32,179,yok,0,1,1,30,0.20
+HV-003,Banyo Havlusu 70x140,havlu,32,24,11,0.62,329,yok,0,1,1,30,0.18
+HV-004,Havlu Seti 4'lü,havlu,38,28,16,1.55,899,yok,0,1,1,30,0.18
+BR-001,Bornoz Kadın (M),bornoz,40,30,14,1.10,1249,yok,0,1,1,25,0.20
+BR-002,Bornoz Erkek (L),bornoz,42,32,15,1.28,1349,yok,0,1,1,25,0.20
+BR-003,Çocuk Bornoz,bornoz,32,24,11,0.68,799,yok,0,1,1,25,0.20
+NV-001,Tek Kişilik Nevresim Takımı,nevresim,36,28,11,1.35,1290,yok,0,1,1,28,0.22
+NV-002,Çift Kişilik Nevresim Takımı,nevresim,42,32,14,1.95,1890,yok,0,1,1,28,0.22
+NV-003,Saten Nevresim Takımı (Çift),nevresim,44,33,15,2.20,2790,yok,0,1,1,28,0.20
+NV-004,Çarşaf Çift Kişilik,nevresim,34,26,9,0.85,649,yok,0,1,1,28,0.24
+NV-005,Yastık Kılıfı 2'li,nevresim,24,18,5,0.22,199,yok,0,1,1,28,0.25
+NV-006,Silikon Yastık,nevresim,40,30,18,0.85,449,yok,0,1,1,20,0.30
+BT-001,Battaniye Tek Kişilik,battaniye,44,34,16,1.80,1190,yok,0,1,1,25,0.25
+BT-002,Battaniye Çift Kişilik,battaniye,50,38,20,2.60,1690,yok,0,1,1,25,0.25
+BT-003,Yorgan Çift Kişilik,battaniye,60,42,26,2.90,2290,yok,0,1,1,20,0.28
+PR-001,Fon Perde 140x260,perde,42,18,14,1.45,1090,yok,0,1,1,22,0.15
+PR-002,Tül Perde 300x260,perde,38,16,12,0.95,890,yok,0,1,1,22,0.20
+PR-003,Halı 80x150,perde,82,22,22,4.80,2490,yok,0,1,1,18,0.08
+PR-004,Paspas Seti 2'li,perde,40,30,10,1.10,449,yok,0,1,1,22,0.15
+PR-005,Masa Örtüsü,perde,30,22,8,0.55,549,yok,0,1,1,25,0.20
+MT-001,Çay Bardağı Seti 6'lı,mutfak,26,18,11,1.35,449,yuksek,0,0,0,0,0.00
+MT-002,Porselen Yemek Takımı 24 Parça,mutfak,44,34,24,9.80,3490,yuksek,0,0,0,0,0.00
+MT-003,Kahve Fincan Takımı 6'lı,mutfak,24,17,10,1.05,649,yuksek,0,0,0,0,0.00
+MT-004,Cam Saklama Kabı 3'lü,mutfak,28,20,14,2.10,399,orta,0,0,1,5,0.00
+MT-005,Çelik Tencere Seti 7 Parça,mutfak,40,38,26,6.40,4290,dusuk,0,0,1,12,0.00
+MT-006,Bambu Kesme Tahtası,mutfak,38,24,3,0.90,249,yok,0,0,1,20,0.00
+MT-007,Cam Sürahi 1.5L,mutfak,14,14,28,0.85,299,yuksek,0,0,0,0,0.00
+DK-001,Dekoratif Seramik Vazo,ev_dekor,18,18,34,1.60,899,yuksek,0,0,0,0,0.00
+DK-002,Mumluk Seti 3'lü,ev_dekor,22,16,18,1.20,449,yuksek,0,0,0,0,0.00
+DK-003,Duvar Saati,ev_dekor,34,34,6,1.10,749,orta,0,0,1,4,0.00
+DK-004,Çerçeve Seti 4'lü,ev_dekor,32,26,8,1.80,549,yuksek,0,0,0,0,0.00
+DT-001,Sıvı Çamaşır Deterjanı 5L,deterjan,24,14,30,5.40,429,orta,1,0,0,0,0.00
+DT-002,Yumuşatıcı 3L,deterjan,20,12,28,3.20,289,orta,1,0,0,0,0.00
+DT-003,Bulaşık Deterjanı 1.5L,deterjan,12,9,26,1.60,129,dusuk,1,0,1,6,0.00
+DT-004,Yüzey Temizleyici 2L,deterjan,14,10,28,2.10,159,dusuk,1,0,1,6,0.00
+GD-001,Zeytinyağı 5L Teneke,gida_sivi,20,14,28,5.20,1980,orta,1,0,0,0,0.00
+GD-002,Zeytinyağı 1L Cam Şişe,gida_sivi,8,8,30,1.15,449,yuksek,1,0,0,0,0.00
+GD-003,Süzme Bal 850g Cam Kavanoz,gida_sivi,11,11,14,1.10,389,yuksek,1,0,0,0,0.00
+KB-001,Şampuan 1L,kisisel_bakim,10,7,24,1.08,189,dusuk,1,0,1,5,0.00
+KB-002,Duş Jeli 750ml,kisisel_bakim,9,6,22,0.82,139,dusuk,1,0,1,5,0.00
+KB-003,Sıvı Sabun 3'lü Set,kisisel_bakim,24,9,20,1.60,219,dusuk,1,0,1,5,0.00
+EA-001,Buharlı Ütü,kucuk_ev_aleti,32,16,22,2.10,2490,orta,0,0,0,0,0.00
+EA-002,Su Isıtıcısı,kucuk_ev_aleti,24,20,28,1.60,1290,orta,0,0,0,0,0.00
+EA-003,El Blenderı,kucuk_ev_aleti,28,12,12,1.20,1690,orta,0,0,1,4,0.00
+EA-004,Tost Makinesi,kucuk_ev_aleti,34,28,14,2.80,1890,orta,0,0,0,0,0.00
+EA-005,Saç Kurutma Makinesi,kucuk_ev_aleti,26,14,22,1.05,1490,orta,0,0,1,4,0.00

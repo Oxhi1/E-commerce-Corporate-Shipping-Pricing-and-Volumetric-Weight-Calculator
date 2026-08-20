@@ -1,0 +1,122 @@
+# Standart koli katalogu -- Ozdilek depo ambalaj stogu.
+#
+# ONEMLI: `inner` olculer urunlerin sigacagi kullanilabilir hacimdir, `wall_cm`
+# oluklu mukavva et kalinligidir. Kargo firmasi **dis** olcuyu olcer ve faturayi
+# ona gore keser:
+#     dis_kenar = ic_kenar + 2 * wall_cm
+# Bu ayrimi atlamak her koli icin sistematik olarak dusuk desi tahmin etmeye yol
+# acar; buyuk kolilerde fark bir tarife kademesine denk gelebiliyor.
+
+version: 1
+updated: 2026-08-07
+
+boxes:
+  - code: K01
+    name: Kucuk kutu
+    inner: {length_cm: 20, width_cm: 15, height_cm: 10}
+    wall_cm: 0.4
+    tare_kg: 0.12
+    max_payload_kg: 5
+    unit_cost_try: 4.20
+
+  - code: K02
+    name: Kucuk-orta kutu
+    inner: {length_cm: 25, width_cm: 20, height_cm: 15}
+    wall_cm: 0.4
+    tare_kg: 0.18
+    max_payload_kg: 8
+    unit_cost_try: 5.60
+
+  - code: K03
+    name: Orta kutu
+    inner: {length_cm: 30, width_cm: 22, height_cm: 16}
+    wall_cm: 0.5
+    tare_kg: 0.26
+    max_payload_kg: 10
+    unit_cost_try: 7.10
+
+  - code: K04
+    name: Orta-buyuk kutu
+    inner: {length_cm: 35, width_cm: 25, height_cm: 20}
+    wall_cm: 0.5
+    tare_kg: 0.36
+    max_payload_kg: 15
+    unit_cost_try: 9.40
+
+  - code: K05
+    name: Buyuk kutu
+    inner: {length_cm: 40, width_cm: 30, height_cm: 20}
+    wall_cm: 0.5
+    tare_kg: 0.47
+    max_payload_kg: 20
+    unit_cost_try: 11.80
+
+  - code: K06
+    name: Buyuk kutu (derin)
+    inner: {length_cm: 45, width_cm: 35, height_cm: 25}
+    wall_cm: 0.6
+    tare_kg: 0.62
+    max_payload_kg: 25
+    unit_cost_try: 15.30
+
+  - code: K07
+    name: Tekstil kutusu
+    inner: {length_cm: 50, width_cm: 40, height_cm: 30}
+    wall_cm: 0.6
+    tare_kg: 0.84
+    max_payload_kg: 30
+    unit_cost_try: 19.70
+
+  - code: K08
+    name: Yorgan kutusu
+    inner: {length_cm: 60, width_cm: 40, height_cm: 40}
+    wall_cm: 0.7
+    tare_kg: 1.15
+    max_payload_kg: 35
+    unit_cost_try: 26.50
+
+  - code: K09
+    name: Buyuk tekstil kutusu
+    inner: {length_cm: 70, width_cm: 50, height_cm: 40}
+    wall_cm: 0.7
+    tare_kg: 1.55
+    max_payload_kg: 40
+    unit_cost_try: 34.00
+
+  - code: K10
+    name: Jumbo kutu
+    inner: {length_cm: 80, width_cm: 60, height_cm: 50}
+    wall_cm: 0.8
+    tare_kg: 2.10
+    max_payload_kg: 45
+    unit_cost_try: 48.90
+
+  # Kargo posetleri: tekstil icin yaygin ve cok daha ucuz/hafif.
+  # `soft_only` bayragi paketleme kurallarinda zorunlu kilinir -- kirilabilir veya
+  # sivi urun asla poset ile gonderilmez.
+  - code: P01
+    name: Kargo poseti (kucuk)
+    inner: {length_cm: 30, width_cm: 25, height_cm: 8}
+    wall_cm: 0.05
+    tare_kg: 0.02
+    max_payload_kg: 3
+    unit_cost_try: 1.30
+    soft_only: true
+
+  - code: P02
+    name: Kargo poseti (orta)
+    inner: {length_cm: 40, width_cm: 32, height_cm: 12}
+    wall_cm: 0.05
+    tare_kg: 0.03
+    max_payload_kg: 5
+    unit_cost_try: 1.90
+    soft_only: true
+
+  - code: P03
+    name: Kargo poseti (buyuk)
+    inner: {length_cm: 50, width_cm: 40, height_cm: 18}
+    wall_cm: 0.05
+    tare_kg: 0.05
+    max_payload_kg: 8
+    unit_cost_try: 2.80
+    soft_only: true

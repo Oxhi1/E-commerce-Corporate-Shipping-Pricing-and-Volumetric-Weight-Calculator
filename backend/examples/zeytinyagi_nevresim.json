@@ -1,0 +1,9 @@
+{
+  "_aciklama": "Kabul kriteri #2'nin sepeti: sizabilecek bir urun (5L zeytinyagi) ile sizintidan zarar gorecek bir urun (nevresim) bir arada. Van'a gonderildiginde motor en ucuz nakliyeyi reddetmeli.",
+  "lines": [
+    {"sku": "GD-001", "quantity": 1},
+    {"sku": "NV-002", "quantity": 1}
+  ],
+  "cod": true,
+  "clv": 4500
+}

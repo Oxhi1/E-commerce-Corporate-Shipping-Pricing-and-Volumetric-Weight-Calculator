@@ -1,0 +1,10 @@
+{
+  "_aciklama": "Yuksek degerli kirilabilir sepet -- riskten kacinma parametresinin etkisini gostermek icin.",
+  "lines": [
+    {"sku": "MT-002", "quantity": 1},
+    {"sku": "MT-001", "quantity": 2},
+    {"sku": "DK-001", "quantity": 1}
+  ],
+  "cod": false,
+  "clv": 6200
+}

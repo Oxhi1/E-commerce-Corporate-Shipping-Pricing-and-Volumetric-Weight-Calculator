@@ -1,0 +1,133 @@
+# Yurtici Kargo -- SENTETIK tarife
+# Uretici: scripts/generate_synthetic_tariffs.py (elle duzenlenebilir)
+# Bu dosyadaki fiyatlar GERCEK SOZLESME FIYATI DEGILDIR.
+carrier: YURTICI
+display_name: Yurtici Kargo
+source: synthetic
+note: SENTETIK VERI -- gercek sozlesme fiyati degildir. scripts/generate_synthetic_tariffs.py tarafindan
+  uretilmistir. En pahali, en hizli, en dusuk hasar. Degerli/kirilgan sepetlerin adayi.
+valid_from: '2026-01-01'
+currency: TRY
+rounding: half_up
+desi_step: 1.0
+min_charge: 89.9
+desi_tiers:
+- up_to: 1
+  zones:
+    sehir_ici: 76.0
+    bolge_ici: 85.0
+    bolgeler_arasi: 98.5
+    uzak: 110.9
+- up_to: 2
+  zones:
+    sehir_ici: 83.0
+    bolge_ici: 93.5
+    bolgeler_arasi: 108.5
+    uzak: 123.0
+- up_to: 3
+  zones:
+    sehir_ici: 88.9
+    bolge_ici: 100.5
+    bolgeler_arasi: 117.0
+    uzak: 133.5
+- up_to: 4
+  zones:
+    sehir_ici: 94.5
+    bolge_ici: 106.9
+    bolgeler_arasi: 125.0
+    uzak: 143.5
+- up_to: 5
+  zones:
+    sehir_ici: 99.5
+    bolge_ici: 113.0
+    bolgeler_arasi: 132.9
+    uzak: 152.5
+- up_to: 6
+  zones:
+    sehir_ici: 104.9
+    bolge_ici: 119.5
+    bolgeler_arasi: 140.0
+    uzak: 161.5
+- up_to: 7
+  zones:
+    sehir_ici: 109.9
+    bolge_ici: 125.0
+    bolgeler_arasi: 147.5
+    uzak: 170.5
+- up_to: 8
+  zones:
+    sehir_ici: 114.5
+    bolge_ici: 131.0
+    bolgeler_arasi: 154.5
+    uzak: 179.0
+- up_to: 9
+  zones:
+    sehir_ici: 119.5
+    bolge_ici: 136.9
+    bolgeler_arasi: 161.5
+    uzak: 187.5
+- up_to: 10
+  zones:
+    sehir_ici: 124.0
+    bolge_ici: 142.5
+    bolgeler_arasi: 168.5
+    uzak: 196.0
+- up_to: 12
+  zones:
+    sehir_ici: 133.5
+    bolge_ici: 153.5
+    bolgeler_arasi: 181.9
+    uzak: 212.5
+- up_to: 15
+  zones:
+    sehir_ici: 146.9
+    bolge_ici: 169.5
+    bolgeler_arasi: 201.5
+    uzak: 236.5
+- up_to: 20
+  zones:
+    sehir_ici: 168.9
+    bolge_ici: 195.9
+    bolgeler_arasi: 233.0
+    uzak: 275.5
+- up_to: 25
+  zones:
+    sehir_ici: 189.9
+    bolge_ici: 220.9
+    bolgeler_arasi: 263.9
+    uzak: 312.9
+- up_to: 30
+  zones:
+    sehir_ici: 210.5
+    bolge_ici: 245.5
+    bolgeler_arasi: 293.9
+    uzak: 349.5
+over_30_per_desi:
+  sehir_ici: 4.0
+  bolge_ici: 4.9
+  bolgeler_arasi: 6.0
+  uzak: 7.5
+surcharges:
+  fuel_pct: 0.075
+  cod_fee: 22.0
+  insurance:
+    free_limit: 1000.0
+    pct_above: 0.003
+  vat_pct: 0.2
+volume_discounts:
+- monthly_parcels_gte: 4000
+  pct: 0.05
+- monthly_parcels_gte: 9000
+  pct: 0.08
+service:
+  sla_days:
+    sehir_ici: 1
+    bolge_ici: 2
+    bolgeler_arasi: 2
+    uzak: 3
+  rural_extra_days: 1
+  cutoff: '17:30'
+constraints:
+  max_desi_per_parcel: 100
+  cod_supported: true
+  unserved_plates: []

@@ -1,0 +1,11 @@
+{
+  "_aciklama": "Hacimli tekstil sepeti -- koli bolme kararinin (Pareto cephesi) en belirgin oldugu ornek.",
+  "lines": [
+    {"sku": "HV-003", "quantity": 6},
+    {"sku": "NV-002", "quantity": 2},
+    {"sku": "BR-001", "quantity": 2},
+    {"sku": "BT-002", "quantity": 1}
+  ],
+  "cod": false,
+  "clv": 2400
+}

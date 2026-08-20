@@ -1,0 +1,10 @@
+{
+  "_aciklama": "Banyo yenileme sepeti -- tamami yumusak tekstil, kutulamadan en cok kazanci bu sepet saglar.",
+  "lines": [
+    {"sku": "HV-003", "quantity": 4},
+    {"sku": "HV-001", "quantity": 2},
+    {"sku": "BR-001", "quantity": 1}
+  ],
+  "cod": false,
+  "clv": 1800
+}
